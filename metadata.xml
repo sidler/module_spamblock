@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://apidocs.kajona.de/xsd/package.xsd"
+        >
+    <title>spamblock</title>
+    <description>Tries to obfuscate mail-addresses on your website using some js and css technique in order to prevent bots from harvesting your mail-addresses.
+        No additional scripts required.
+
+        The sources of this module may be found at https://github.com/sidler/module_spamblock
+
+        Changelog
+        V 0.8: Updated for Kajona V5
+        V 0.7: the scriptlet is disabled in case of a submitted form. otherwise submitted mail-addresses may be garbled.
+        V 0.6: for some scenarios, the scriptlet was disabled even when rendering a portal-page
+
+    </description>
+    <version>0.8</version>
+    <author>lorddoc</author>
+    <type>MODULE</type>
+    <providesInstaller>FALSE</providesInstaller>
+    <requiredModules>
+        <module name="system" version="5.0" />
+        <module name="pages" version="5.0" />
+    </requiredModules>
+    <screenshots>
+        <screenshot path="screenshots/spamblock_1.png" />
+        <screenshot path="screenshots/spamblock_2.png" />
+    </screenshots>
+</package>
